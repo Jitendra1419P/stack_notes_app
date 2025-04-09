@@ -10,7 +10,7 @@ const UserContext = React.createContext();
 axios.defaults.withCredentials = true;
 
 export const UserContextProvider = ({ children }) => {
-  const serverUrl = 'http://localhost:8000';
+  const serverUrl = 'https://stack-notes-app.onrender.com/';
 
   const router = useRouter();
 
